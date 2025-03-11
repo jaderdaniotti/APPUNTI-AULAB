@@ -1,0 +1,15 @@
+  let provaanimazione = document.querySelector('.provaanimazione');
+  function logElementInViewport(element) {
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+         element.classList.add('on');
+          observer.unobserve(element); // Smette di osservare l'elemento dopo l'intersezione
+        }
+      });
+    });
+  
+    observer.observe(element);
+  }
+  
+  logElementInViewport(provaanimazione);

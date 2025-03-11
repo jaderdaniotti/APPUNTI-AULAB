@@ -1,0 +1,8 @@
+Elenco operazioni da fare:
+Crea una rotta statica in GET per visualizzare il form (ricorda tutte le regole per scrivere il form)
+Una rotta statica in POST per l'azione dell'invio (ricorda di iniettare la dipendenza)
+Crea la classe Mail e configura i metodi
+Implementa un sistema di validazione backend dei campi input
+Gestisci gli errori nella pagina e il successo in caso esito positivo
+Crea un account su https://mailtrap.io e inserisci i dati nel file .env
+Fai un test di invio
